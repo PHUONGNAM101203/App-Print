@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+/* App.css */
+/* App.css */
+
+/* App.css */
+
+/* App.css */
+
+/* App.css */
+
+/* App.css */
+
+/* Tổng quan ứng dụng */
+html, body, #root, .app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.app-navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #343a40;
+}
+
+.app-navbar .navbar-brand,
+.app-navbar .btn-link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Body */
+.app-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Footer */
+.app-footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+/* Trang chủ & phần tải lên */
+.main-section {
+  flex: 1;
+  display: flex;
+  width: 100%;
+}
+
+.upload-section, .preview-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f9;
+  height: 100%;
+}
+
+.upload-box {
+  border: 2px dashed #007bff;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #007bff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-name {
+  margin-top: 10px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.preview-container, .summary-container {
+  width: 100%;
+  max-width: 90%;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.pdf-preview {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.summary-container h5 {
+  color: #333;
+}
+
+/* Phần kết quả tính toán */
+.result-section {
+  width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-container {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.payment-form {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.payment-form .form-label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Trang đăng nhập */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.login-box {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.login-box form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.login-box form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.login-box form button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+

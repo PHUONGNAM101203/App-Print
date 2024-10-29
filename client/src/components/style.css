@@ -1,0 +1,29 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .text-gray-800 {
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .text-gray-800:hover {
+    color: #1a202c;
+}
+
+.navbar .text-blue-500 {
+    color: #3182ce;
+}
